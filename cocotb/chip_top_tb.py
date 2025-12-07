@@ -106,7 +106,7 @@ def chip_top_runner():
         Path(pdk_root) / pdk / "libs.ref/gf180mcu_fd_io/verilog/gf180mcu_ws_io.v",
 
         # SRAM macros
-        Path(pdk_root) / pdk / "libs.ref/gf180mcu_fd_ip_sram/verilog/.v",
+        Path(pdk_root) / pdk / "libs.ref/gf180mcu_fd_ip_sram/verilog/gf180mcu_fd_ip_sram__sram512x8m8wm1.v",
 
         # Custom IP
         proj_path / "../ip/gf180mcu_ws_ip__id/vh/gf180mcu_ws_ip__id.v",
