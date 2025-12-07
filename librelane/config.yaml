@@ -158,22 +158,22 @@ MACROS:
     instances:
       # 6 SRAMs in 2x3 arrangement
       i_chip_core.u_sram_array.sram_0:
-        location: [452.0, 452.0]
+        location: [526.14, 518.18]
         orientation: N
       i_chip_core.u_sram_array.sram_1:
-        location: [903.86, 452.0]
+        location: [978.0, 518.18]
         orientation: N
       i_chip_core.u_sram_array.sram_2:
-        location: [452.0, 956.88]
+        location: [526.14, 1023.06]
         orientation: N
       i_chip_core.u_sram_array.sram_3:
-        location: [903.86, 956.88]
+        location: [978.0, 1023.06]
         orientation: N
       i_chip_core.u_sram_array.sram_4:
-        location: [452.0, 1461.76]
+        location: [526.14, 1527.94]
         orientation: N
       i_chip_core.u_sram_array.sram_5:
-        location: [903.86, 1461.76]
+        location: [978.0, 1527.94]
         orientation: N
 
 # Power connections for SRAM macros
