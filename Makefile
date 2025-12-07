@@ -1,7 +1,7 @@
 MAKEFILE_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 RUN_TAG = $(shell ls librelane/runs/ | tail -n 1)
-TOP = chip_top
+TOP = gf180mcu_ic_0p5x0p5_sram_u8b3k_top
 
 PDK_ROOT ?= $(MAKEFILE_DIR)/gf180mcu
 PDK ?= gf180mcuD
